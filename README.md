@@ -1,2 +1,2 @@
 # common-framework
-java framework
+java framework for springboot3
