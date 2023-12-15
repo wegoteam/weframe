@@ -8,6 +8,7 @@
     <groupId>com.wego.framework</groupId>
     <artifactId>common-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>common-framework-${project.version}</name>
 
     <properties>
         <java.version>20</java.version>
