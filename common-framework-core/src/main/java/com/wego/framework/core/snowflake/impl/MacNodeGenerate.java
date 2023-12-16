@@ -2,7 +2,6 @@ package com.wego.framework.core.snowflake.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.itools.core.utils.NetworkUtils;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.StringUtils;
 
