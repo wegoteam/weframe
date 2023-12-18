@@ -6,16 +6,22 @@
     <parent>
         <groupId>com.wego.framework</groupId>
         <artifactId>common-framework</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>v1.0.0</version>
     </parent>
 
     <artifactId>common-framework-core</artifactId>
-    <name>common-framework-core-${project.version}</name>
+    <name>common-framework-core:${project.version}</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.wego.framework</groupId>
+            <artifactId>common-framework-utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
