@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+config.com.wegoteam.framework.core.Swagger2Config
