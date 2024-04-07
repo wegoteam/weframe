@@ -42,7 +42,7 @@ public class IdempotentLimitAspect {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
-    @Pointcut("@annotation(com.itools.core.annotation.IdempotentLimit)")
+    @Pointcut("@annotation(com.wegoteam.framework.core.annotation.IdempotentLimit)")
     private void pointcut() {
     }
 

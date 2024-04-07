@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.wegoteam</groupId>
-        <artifactId>common-framework</artifactId>
+        <artifactId>weframe</artifactId>
         <version>1.0.0-REALSE</version>
     </parent>
 
-    <artifactId>common-framework-utils</artifactId>
-    <name>common-framework-utils:${project.version}</name>
+    <artifactId>weframe-utils</artifactId>
+    <name>weframe-utils:${project.version}</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

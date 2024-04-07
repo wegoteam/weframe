@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.wegoteam</groupId>
-        <artifactId>common-framework</artifactId>
+        <artifactId>weframe</artifactId>
         <version>1.0.0-REALSE</version>
     </parent>
 
-    <artifactId>common-framework-core</artifactId>
-    <name>common-framework-core:${project.version}</name>
+    <artifactId>weframe-core</artifactId>
+    <name>weframe-core:${project.version}</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>io.github.wegoteam</groupId>
-            <artifactId>common-framework-utils</artifactId>
+            <artifactId>weframe-utils</artifactId>
             <version>${project.version}</version>
         </dependency>
 
